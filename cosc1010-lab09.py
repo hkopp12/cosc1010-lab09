@@ -43,7 +43,15 @@ class Pizza:
         self.sauce = sauce
         self.toppings = ['cheese']
 
+  def get_size(self):
+        return self.size
 
+    def set_size(self, size):
+        if isinstance(size, int) and size >= 10:
+            self.size = size
+        else:
+            self.size = 10
+        return self.size
 
 # You will be creating a Pizzeria class with the following attributes:
 # - orders, the number of orders placed. Should start at 0.
@@ -86,7 +94,7 @@ class Pizzeria:
     def __init__(self):
         self.orders = 0
         self.pizzas = []
-        
+
 # - Declare your pizzeria object.
 # - Enter a while loop to ask if the user wants to order a pizza.
 # - Exit on the word `exit`.
