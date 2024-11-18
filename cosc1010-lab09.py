@@ -1,12 +1,10 @@
-# Your Name Here
+# Hawkins Kopp
 # UWYO COSC 1010
-# Submission Date
-# Lab XX
-# Lab Section:
+# 11/17/2024
+# Lab 09
+# Lab Section:16
 # Sources, people worked with, help given to:
-# Your
-# Comments
-# Here
+# https://python-forum.io/thread-15425.html 
 
 
 
